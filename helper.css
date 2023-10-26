@@ -1,0 +1,54 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    background: transparent;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+body {
+    background: #F9FCFE;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* helper */
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.centerColumn {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.rowBeetweeen {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* width */
+.width-1100 {
+    width: 98%;
+    max-width: 1110px;
+}
+
+/* margin  */
+.mb-15 {
+    margin-bottom: 15px;
+}
+
+/* 
+    helper css - ето файл для которого мы делаем загтовки css.он помогает нам сократить код в 3-4 раза. здесь прописаваем классы для всех повторяюшых стилей.
+*/
